@@ -14,7 +14,13 @@
     header p { font-size: 1.1rem; margin-top: 0.5rem; }
     main { max-width: 960px; margin: 2rem auto; padding: 1rem; }
     section { margin-bottom: 3rem; }
-    h2 { color: #444; font-size: 1.8rem; margin-bottom: 1rem; border-bottom: 2px solid #ddd; padding-bottom: 0.5rem; }
+    h2 {
+  color: #444;
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.3rem;
+}
     ul { list-style: none; padding-left: 0; }
 
     .Programming-Languages ul,
@@ -79,7 +85,13 @@
       color: #999;
       font-size: 0.9rem;
     }
+    .up-arrow-blue {
+      filter: invert(31%) sepia(88%) saturate(3549%) hue-rotate(185deg) brightness(93%) contrast(91%);
+    }
   </style>
+<body id="top">
+  ...
+</body>
 </head>
 <body>
   <header>
@@ -89,7 +101,7 @@
 
   <main>
     <section class="Programming-Languages">
-      <h2>Programming Languages</h2>
+      <h2><img src="https://img.icons8.com/ios-filled/24/code.png" alt="code" /> Programming Languages</h2>
       <ul>
         <li>C#</li>
         <li>C</li>
@@ -102,22 +114,19 @@
     </section>
 
     <section class="Tools-Environments">
-      <h2>Tools & Environments</h2>
+      <h2><img src="https://img.icons8.com/ios-filled/24/toolbox.png" alt="tools" /> Tools & Environments</h2>
       <ul>
         <li>MS Office</li>
         <li>Visual Studio</li>
         <li>SQL SMS</li>
         <li>Git</li>
-        <li>GithubActions</li>
         <li>Bash</li>
-        <li>CI/CD</li>
-        <li>Azure</li>
         <li>Postman</li>
       </ul>
     </section>
 
     <section class="Frameworks-Libraries">
-      <h2>Frameworks & Libraries</h2>
+      <h2><img src="https://img.icons8.com/ios-filled/24/settings.png" alt="framework" /> Frameworks & Libraries</h2>
       <ul>
         <li>.NET 8</li>
         <li>ASP.NET Core</li>
@@ -132,7 +141,7 @@
     </section>
 
     <section class="DevOps">
-      <h2>DevOps</h2>
+      <h2><img src="https://img.icons8.com/ios-filled/24/cloud.png" alt="devops" /> DevOps</h2>
       <ul>
         <li>Docker</li>
         <li>CI/CD</li>
@@ -143,7 +152,7 @@
     </section>
 
     <section class="Application-Types">
-      <h2>Application Types</h2>
+      <h2><img src="https://img.icons8.com/ios-filled/24/monitor.png" alt="app" /> Application Types</h2>
       <ul>
         <li>Console</li>
         <li>Desktop</li>
@@ -152,7 +161,7 @@
     </section>
 
     <section class="projects">
-      <h2>Projects</h2>
+      <h2><img src="https://img.icons8.com/ios-filled/24/flow-chart.png" alt="projects" /> Projects</h2>
 
       <div class="project-card">
         <h3>XLQL</h3>
@@ -171,7 +180,7 @@
         <p><strong>Technologies:</strong> Visual Studio, C#, .NET Core MVC, Entity Framework ORM, Github, Bash, SQL Server, PostgreSQL</p>
         <p><strong>DevOps:</strong> Github Actions, Azure, Render, Docker, CI/CD</p>
         <a href="https://balanceteam-postgresql.onrender.com" target="_blank" rel="noopener">
-          <img src="https://seeklogo.com/images/R/render-logo-25BD0C5B3F-seeklogo.com.png" alt="Render" />
+          <img src="https://img.icons8.com/ios-filled/24/domain.png" alt="Render" />
           Access the website
         </a>
       </div>
@@ -187,14 +196,16 @@
       </div>
 
       <div class="project-card">
-        <h3>Personal Portfolio</h3>
+        <h3><a href="#top" title="go up">
+          <img src="https://img.icons8.com/ios-filled/24/up--v1.png" alt="Flèche haut" class="up-arrow-blue" />
+        </a>Personal Portfolio</h3>
         <p>This web site, coded in pure HTML/CSS and hosted on GitHub Pages.</p>
         <p><strong>Technologies:</strong> HTML, CSS, GitHub Pages</p>
       </div>
     </section>
 
     <section class="contact">
-      <h2>Contact</h2>
+      <h2><img src="https://img.icons8.com/ios-filled/24/new-post.png" alt="contact" /> Contact</h2>
       <a href="mailto:nathan.dauny@gmail.com">Email</a>
       <a href="https://github.com/nathan-dauny" target="_blank">GitHub</a>
       <a href="https://www.linkedin.com/in/nathandauny/" target="_blank">LinkedIn</a>
