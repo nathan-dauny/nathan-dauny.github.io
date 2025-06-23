@@ -21,8 +21,14 @@
   border-bottom: 1px solid #ddd;
   padding-bottom: 0.3rem;
 }
-    ul { list-style: none; padding-left: 0; }
-
+    .Programming-Languages ul,
+.Tools-Environments ul,
+.Frameworks-Libraries ul,
+.DevOps ul,
+.Application-Types ul {
+  list-style: none;
+  padding-left: 0;
+}
     .Programming-Languages ul,
     .Tools-Environments ul,
     .Frameworks-Libraries ul,
@@ -96,7 +102,7 @@
 <body>
   <header>
     <h1>Nathan Dauny</h1>
-    <p>.Net Full Stack Developer</p>
+    <p>C#/.Net Developer</p>
   </header>
 
   <main>
@@ -164,9 +170,24 @@
       <h2><img src="https://img.icons8.com/ios-filled/24/flow-chart.png" alt="projects" /> Projects</h2>
 
       <div class="project-card">
-        <h3>XLQL</h3>
+        <h3>DynamicCsvParser</h3>
+        <p>This library processes a CSV file and returns:</p>
+        <ul>
+          <li>A dictionary mapping each column name to its corresponding data type</li>
+          <li>An object representing the CSV data, where each row is a List of Dictionary key:string and value:object</li>
+          <li>The overall object is a list of these rows</li>
+        </ul>
+        <p><strong>Technologies:</strong> C#, .NET 8, Visual Studio, CsvHelper, Github</p>
+        <a href="https://github.com/nathan-dauny/CsvToDynamicObject" target="_blank" rel="noopener">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+          View on GitHub
+        </a>
+      </div>
+
+      <div class="project-card">
+        <h3>SliceQL</h3>
         <p>Program to execute SQL query on a Excel file.</p>
-        <p><strong>Technologies:</strong> C#, .NET 8, SQLite, Visual Studio, Gitlab, Github</p>
+        <p><strong>Technologies:</strong> C#, .NET 8, SQLite, Visual Studio, Github, multithreading</p>
         <p><strong>Design patterns:</strong> Disposal, Strategy</p>
         <a href="https://github.com/nathan-dauny/SliceQL" target="_blank" rel="noopener">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
@@ -188,7 +209,7 @@
       <div class="project-card">
         <h3>Cryptor</h3>
         <p>Program to crypt and encrypt.</p>
-        <p><strong>Technologies:</strong> .NET 8, WPF, Visual Studio, Gitlab, Github</p>
+        <p><strong>Technologies:</strong> .NET 8, WPF, Visual Studio, Github</p>
         <a href="https://github.com/nathan-dauny/Cryptor" target="_blank" rel="noopener">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
           View on GitHub
