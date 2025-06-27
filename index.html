@@ -125,6 +125,7 @@
         <li>MS Office</li>
         <li>Visual Studio</li>
         <li>SQL SMS</li>
+        <li>PostgreSQL</li>
         <li>Git</li>
         <li>Bash</li>
         <li>Postman</li>
@@ -170,28 +171,18 @@
       <h2><img src="https://img.icons8.com/ios-filled/24/flow-chart.png" alt="projects" /> Projects</h2>
 
       <div class="project-card">
-        <h3>DynamicCsvParser</h3>
-        <p>This library processes a CSV file and returns:</p>
-        <ul>
-          <li>A dictionary mapping each column name to its corresponding data type</li>
-          <li>An object representing the CSV data, where each row is a List of Dictionary key:string and value:object</li>
-          <li>The overall object is a list of these rows</li>
-        </ul>
-        <p><strong>Technologies:</strong> C#, .NET 8, Visual Studio, CsvHelper, Github</p>
-        <a href="https://github.com/nathan-dauny/CsvToDynamicObject" target="_blank" rel="noopener">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
-          View on GitHub
-        </a>
-      </div>
-
-      <div class="project-card">
         <h3>SliceQL</h3>
-        <p>Program to execute SQL query on a Excel file.</p>
-        <p><strong>Technologies:</strong> C#, .NET 8, SQLite, Visual Studio, Github, multithreading</p>
-        <p><strong>Design patterns:</strong> Disposal, Strategy</p>
+        <p>Program to run an SQL query across multiple CSV files as if they were database tables.</p>
+        <p>Usage of the <a href="#dynamiccsvparser">DynamicCsvParser</a> library</p>
+        <p><strong>Technologies:</strong> C#, .NET 8, SQLite, Visual Studio, Github, Docker</p>
+        <!-- <p><strong>Design patterns:</strong> Disposal, Strategy</p> -->
         <a href="https://github.com/nathan-dauny/SliceQL" target="_blank" rel="noopener">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
           View on GitHub
+        </a>
+        <a href="https://sliceql.onrender.com/" target="_blank" rel="noopener">
+          <img src="https://img.icons8.com/ios-filled/24/domain.png" alt="Render" />
+          Access the website
         </a>
       </div>
 
@@ -211,6 +202,21 @@
         <p>Program to crypt and encrypt.</p>
         <p><strong>Technologies:</strong> .NET 8, WPF, Visual Studio, Github</p>
         <a href="https://github.com/nathan-dauny/Cryptor" target="_blank" rel="noopener">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+          View on GitHub
+        </a>
+      </div>
+
+      <div class="project-card" id="dynamiccsvparser">
+        <h3>DynamicCsvParser</h3>
+        <p>This library processes a CSV file and returns:</p>
+        <ul>
+          <li>A dictionary mapping each column name to its corresponding data type</li>
+          <li>An object representing the CSV data, where each row is a List of Dictionary key:string and value:object</li>
+          <li>The overall object is a list of these rows</li>
+        </ul>
+        <p><strong>Technologies:</strong> C#, .NET 8, Visual Studio, CsvHelper, Github, Multithreading</p>
+        <a href="https://github.com/nathan-dauny/CsvToDynamicObject" target="_blank" rel="noopener">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
           View on GitHub
         </a>
